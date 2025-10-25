@@ -1,0 +1,6 @@
+theme: jekyll-theme-cayman
+title: DHd AG Digitales Museum 
+tagline: AG Digitales Museum
+github:
+  is_project_page: false
+baseurl:

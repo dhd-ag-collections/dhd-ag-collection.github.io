@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e78c454c334e4a279a3529aa9ffb167d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e78c454c334e4a279a3529aa9ffb167d" ></div>
+        
+</body>
+<script>    
+    
+            var map_e78c454c334e4a279a3529aa9ffb167d = L.map(
+                "map_e78c454c334e4a279a3529aa9ffb167d",
+                {
+                    center: [50.201963, 10.646023],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3534309ed459410182db72cfe1a335b9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e78c454c334e4a279a3529aa9ffb167d);
+        
+    
+            var marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01 = L.markerClusterGroup(
+                {}
+            );
+            map_e78c454c334e4a279a3529aa9ffb167d.addLayer(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+            var marker_53b2e349abe047f392a07bd4982dab36 = L.marker(
+                [52.52437, 13.41053],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_ac48b8cc47d842b4909e1d3c589a6d92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05066ddd419f4a92ba27b5d5dabae51d = $(`<div id="html_05066ddd419f4a92ba27b5d5dabae51d" style="width: 100.0%; height: 100.0%;">Organisation: Staatsbibliothek zu Berlin – Preußischer Kulturbesitz; OCR-D</div>`)[0];
+            popup_ac48b8cc47d842b4909e1d3c589a6d92.setContent(html_05066ddd419f4a92ba27b5d5dabae51d);
+        
+
+        marker_53b2e349abe047f392a07bd4982dab36.bindPopup(popup_ac48b8cc47d842b4909e1d3c589a6d92)
+        ;
+
+        
+    
+    
+            var marker_1d04d94a865b41a38dc7c6c96005ffbd = L.marker(
+                [52.52437, 13.41053],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_af84b5730fb6423dabc6e30c3e70114d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e551044d90cd495b80ae016dea745c36 = $(`<div id="html_e551044d90cd495b80ae016dea745c36" style="width: 100.0%; height: 100.0%;">Organisation: Berlin-Brandenburgische Akademie der Wissenschaften; OCR-D</div>`)[0];
+            popup_af84b5730fb6423dabc6e30c3e70114d.setContent(html_e551044d90cd495b80ae016dea745c36);
+        
+
+        marker_1d04d94a865b41a38dc7c6c96005ffbd.bindPopup(popup_af84b5730fb6423dabc6e30c3e70114d)
+        ;
+
+        
+    
+    
+            var marker_738906c7663f414096d0dfd250990a33 = L.marker(
+                [48.52266, 9.05222],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_e5a4091abe74447cbe0fa34a2d2be806 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_987cb9e37b1b49f3ba61cc86badaf438 = $(`<div id="html_987cb9e37b1b49f3ba61cc86badaf438" style="width: 100.0%; height: 100.0%;">Organisation: Universitätsbibliothek Tübingen</div>`)[0];
+            popup_e5a4091abe74447cbe0fa34a2d2be806.setContent(html_987cb9e37b1b49f3ba61cc86badaf438);
+        
+
+        marker_738906c7663f414096d0dfd250990a33.bindPopup(popup_e5a4091abe74447cbe0fa34a2d2be806)
+        ;
+
+        
+    
+    
+            var marker_aef0ac1b91f545ffab1e760557323c7e = L.marker(
+                [51.48158, 11.97947],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_c683e99b99864a53887d3fe1a09adead = L.popup({"maxWidth": "100%"});
+
+        
+            var html_414ffcfea3b24244bfbdd8df1b0702ee = $(`<div id="html_414ffcfea3b24244bfbdd8df1b0702ee" style="width: 100.0%; height: 100.0%;">Organisation: Universitäts- und Landesbibliothek Sachsen-Anhalt</div>`)[0];
+            popup_c683e99b99864a53887d3fe1a09adead.setContent(html_414ffcfea3b24244bfbdd8df1b0702ee);
+        
+
+        marker_aef0ac1b91f545ffab1e760557323c7e.bindPopup(popup_c683e99b99864a53887d3fe1a09adead)
+        ;
+
+        
+    
+    
+            var marker_fd321291b48c4c59a0069459ce7de8ff = L.marker(
+                [49.79391, 9.95121],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_9f621f4538524ed38eda6558ee3318f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c1557dac9f84b9fb257d888dbe0224b = $(`<div id="html_3c1557dac9f84b9fb257d888dbe0224b" style="width: 100.0%; height: 100.0%;">Organisation: Institut für Philosophie, Universität Würzburg</div>`)[0];
+            popup_9f621f4538524ed38eda6558ee3318f8.setContent(html_3c1557dac9f84b9fb257d888dbe0224b);
+        
+
+        marker_fd321291b48c4c59a0069459ce7de8ff.bindPopup(popup_9f621f4538524ed38eda6558ee3318f8)
+        ;
+
+        
+    
+    
+            var marker_94c7c4e2ab4d4d3987c93660366bbf1e = L.marker(
+                [50.87481, 8.02431],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_d4fd558665bb4c9f8ea87e134e678da1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aef24a221fbc4ffcb73cb44c253c1c19 = $(`<div id="html_aef24a221fbc4ffcb73cb44c253c1c19" style="width: 100.0%; height: 100.0%;">Organisation: Zentrum für Informations- und Medientechnologie, Universität Siegen</div>`)[0];
+            popup_d4fd558665bb4c9f8ea87e134e678da1.setContent(html_aef24a221fbc4ffcb73cb44c253c1c19);
+        
+
+        marker_94c7c4e2ab4d4d3987c93660366bbf1e.bindPopup(popup_d4fd558665bb4c9f8ea87e134e678da1)
+        ;
+
+        
+    
+    
+            var marker_088b588dac464d058de07165422bcf5c = L.marker(
+                [48.13743, 11.57549],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_e70a785841ed472b98301bb22e83552c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_daf9e2dacd064e31ac48fc1c7fca4c53 = $(`<div id="html_daf9e2dacd064e31ac48fc1c7fca4c53" style="width: 100.0%; height: 100.0%;">Organisation: Centrum für Informations- und Sprachverarbeitung, LMU München</div>`)[0];
+            popup_e70a785841ed472b98301bb22e83552c.setContent(html_daf9e2dacd064e31ac48fc1c7fca4c53);
+        
+
+        marker_088b588dac464d058de07165422bcf5c.bindPopup(popup_e70a785841ed472b98301bb22e83552c)
+        ;
+
+        
+    
+    
+            var marker_869cb4a4868246bb95a5f03ee0f0f78c = L.marker(
+                [48.13743, 11.57549],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_4d7f887b69eb40a19fd94f2c249702c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62e378e120e64bba98c3d2eb8aed70d4 = $(`<div id="html_62e378e120e64bba98c3d2eb8aed70d4" style="width: 100.0%; height: 100.0%;">Organisation: Bayerische Akademie der Wissenschaften</div>`)[0];
+            popup_4d7f887b69eb40a19fd94f2c249702c4.setContent(html_62e378e120e64bba98c3d2eb8aed70d4);
+        
+
+        marker_869cb4a4868246bb95a5f03ee0f0f78c.bindPopup(popup_4d7f887b69eb40a19fd94f2c249702c4)
+        ;
+
+        
+    
+    
+            var marker_015d5e8fbed24b0281c69b7818519309 = L.marker(
+                [48.52266, 9.05222],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_b9219c8314f947d18607477b9341454e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e85a403cf3f47b8b05e4cf1c03f7d90 = $(`<div id="html_9e85a403cf3f47b8b05e4cf1c03f7d90" style="width: 100.0%; height: 100.0%;">Organisation: Romanisches Seminar, Universität Tübingen</div>`)[0];
+            popup_b9219c8314f947d18607477b9341454e.setContent(html_9e85a403cf3f47b8b05e4cf1c03f7d90);
+        
+
+        marker_015d5e8fbed24b0281c69b7818519309.bindPopup(popup_b9219c8314f947d18607477b9341454e)
+        ;
+
+        
+    
+    
+            var marker_b5a1f7ff269e41b790d130213ffa46b0 = L.marker(
+                [51.48158, 11.97947],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_2233c24b82364c3f97bae4e909579c5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c42fe44c7a6346539be496eb643985c3 = $(`<div id="html_c42fe44c7a6346539be496eb643985c3" style="width: 100.0%; height: 100.0%;">Organisation: Institut für Geschichte, Martin-Luther-Universität Halle-Wittenberg</div>`)[0];
+            popup_2233c24b82364c3f97bae4e909579c5e.setContent(html_c42fe44c7a6346539be496eb643985c3);
+        
+
+        marker_b5a1f7ff269e41b790d130213ffa46b0.bindPopup(popup_2233c24b82364c3f97bae4e909579c5e)
+        ;
+
+        
+    
+    
+            var marker_78d409fe228c45f591b2043b68aea87b = L.marker(
+                [52.52437, 13.41053],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_fde64ef9ba6e488ea4ea4a8daabc0ab7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95220d20ffd549b48933187046967425 = $(`<div id="html_95220d20ffd549b48933187046967425" style="width: 100.0%; height: 100.0%;">Organisation: Staatsbibliothek zu Berlin – Preußischer Kulturbesitz; OCR-D</div>`)[0];
+            popup_fde64ef9ba6e488ea4ea4a8daabc0ab7.setContent(html_95220d20ffd549b48933187046967425);
+        
+
+        marker_78d409fe228c45f591b2043b68aea87b.bindPopup(popup_fde64ef9ba6e488ea4ea4a8daabc0ab7)
+        ;
+
+        
+    
+    
+            var marker_c3b9afa1ebde49669c76ca7cbd2bee81 = L.marker(
+                [49.79391, 9.95121],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_32654f289ffd4886b9defc015c009939 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c28046a17829454896300af47f53238c = $(`<div id="html_c28046a17829454896300af47f53238c" style="width: 100.0%; height: 100.0%;">Organisation: Zentrum für Philologie und Digitalität „Kallimachos”, Universität Würzburg</div>`)[0];
+            popup_32654f289ffd4886b9defc015c009939.setContent(html_c28046a17829454896300af47f53238c);
+        
+
+        marker_c3b9afa1ebde49669c76ca7cbd2bee81.bindPopup(popup_32654f289ffd4886b9defc015c009939)
+        ;
+
+        
+    
+    
+            var marker_18ff508783554a9dbfdfd3a69d716a5f = L.marker(
+                [48.13743, 11.57549],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_c8ab331c36d5427e9ccac2acf3e72574 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52450c294689463a95c2a315abbec24a = $(`<div id="html_52450c294689463a95c2a315abbec24a" style="width: 100.0%; height: 100.0%;">Organisation: Centrum für Informations- und Sprachverarbeitung, LMU München</div>`)[0];
+            popup_c8ab331c36d5427e9ccac2acf3e72574.setContent(html_52450c294689463a95c2a315abbec24a);
+        
+
+        marker_18ff508783554a9dbfdfd3a69d716a5f.bindPopup(popup_c8ab331c36d5427e9ccac2acf3e72574)
+        ;
+
+        
+    
+    
+            var marker_5fe8e13ff74741efb447034c99fb5501 = L.marker(
+                [48.52266, 9.05222],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_877a4a239d574c15b75d9477e4adbdfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0be3d21817c74ceab21178fafb01321e = $(`<div id="html_0be3d21817c74ceab21178fafb01321e" style="width: 100.0%; height: 100.0%;">Organisation: Universitaetsbibliothek Tuebingen</div>`)[0];
+            popup_877a4a239d574c15b75d9477e4adbdfc.setContent(html_0be3d21817c74ceab21178fafb01321e);
+        
+
+        marker_5fe8e13ff74741efb447034c99fb5501.bindPopup(popup_877a4a239d574c15b75d9477e4adbdfc)
+        ;
+
+        
+    
+    
+            var marker_80b7d8bd5e944db6af7e88b0e18de384 = L.marker(
+                [49.79391, 9.95121],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_c3cdedb68c2c412589f68f93be21404c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66a6a0ef2ab84143841e1d6299adb943 = $(`<div id="html_66a6a0ef2ab84143841e1d6299adb943" style="width: 100.0%; height: 100.0%;">Organisation: Zentrum für Philologie und Digitalität „Kallimachos”, Universität Würzburg</div>`)[0];
+            popup_c3cdedb68c2c412589f68f93be21404c.setContent(html_66a6a0ef2ab84143841e1d6299adb943);
+        
+
+        marker_80b7d8bd5e944db6af7e88b0e18de384.bindPopup(popup_c3cdedb68c2c412589f68f93be21404c)
+        ;
+
+        
+    
+    
+            var marker_ee40f5118bf14d62874bdacbdf649fd1 = L.marker(
+                [49.98419, 8.2791],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_d7b4574722d3472c97e5c3c731949485 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_282b1b6170604e12b401dd177d494900 = $(`<div id="html_282b1b6170604e12b401dd177d494900" style="width: 100.0%; height: 100.0%;">Organisation: Gutenberg-Institut, Universität Mainz</div>`)[0];
+            popup_d7b4574722d3472c97e5c3c731949485.setContent(html_282b1b6170604e12b401dd177d494900);
+        
+
+        marker_ee40f5118bf14d62874bdacbdf649fd1.bindPopup(popup_d7b4574722d3472c97e5c3c731949485)
+        ;
+
+        
+    
+    
+            var marker_8c8584bbc50544d6a45d781e97ffdf18 = L.marker(
+                [51.05089, 13.73832],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_90c2439448694e1683295ab868997b16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6133cfd6055a43c194a81332a5a1eac6 = $(`<div id="html_6133cfd6055a43c194a81332a5a1eac6" style="width: 100.0%; height: 100.0%;">Organisation: Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</div>`)[0];
+            popup_90c2439448694e1683295ab868997b16.setContent(html_6133cfd6055a43c194a81332a5a1eac6);
+        
+
+        marker_8c8584bbc50544d6a45d781e97ffdf18.bindPopup(popup_90c2439448694e1683295ab868997b16)
+        ;
+
+        
+    
+    
+            var marker_83a2b0309bb140daacbfd4e047f3f942 = L.marker(
+                [52.16442, 10.54095],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_9c6427ff6e6542cfb1d6791d6eaa8d39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e07556ac757a4602b71362ac0a43432c = $(`<div id="html_e07556ac757a4602b71362ac0a43432c" style="width: 100.0%; height: 100.0%;">Organisation: Herzog August Bibliothek Wolfenbüttel</div>`)[0];
+            popup_9c6427ff6e6542cfb1d6791d6eaa8d39.setContent(html_e07556ac757a4602b71362ac0a43432c);
+        
+
+        marker_83a2b0309bb140daacbfd4e047f3f942.bindPopup(popup_9c6427ff6e6542cfb1d6791d6eaa8d39)
+        ;
+
+        
+    
+    
+            var marker_04a1d66db85b4443b6ff7f0f22820769 = L.marker(
+                [53.07582, 8.80717],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_2fa0673bb6ae41b7ab6fc2db4e6412b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bcb0308bb1649d7badcbf2799a389d6 = $(`<div id="html_1bcb0308bb1649d7badcbf2799a389d6" style="width: 100.0%; height: 100.0%;">Organisation: Staats- und Universitätsbibliothek Bremen</div>`)[0];
+            popup_2fa0673bb6ae41b7ab6fc2db4e6412b4.setContent(html_1bcb0308bb1649d7badcbf2799a389d6);
+        
+
+        marker_04a1d66db85b4443b6ff7f0f22820769.bindPopup(popup_2fa0673bb6ae41b7ab6fc2db4e6412b4)
+        ;
+
+        
+    
+    
+            var marker_fb9ab9a03d714617b4ec82c62b627c98 = L.marker(
+                [50.87894, 7.12292],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_ff570f04895d493f86cec9450bcd7fbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e46367c830ce44d2b65351c0e57d6368 = $(`<div id="html_e46367c830ce44d2b65351c0e57d6368" style="width: 100.0%; height: 100.0%;">Organisation: Universitäts- und Landesbibliothek Bonn</div>`)[0];
+            popup_ff570f04895d493f86cec9450bcd7fbf.setContent(html_e46367c830ce44d2b65351c0e57d6368);
+        
+
+        marker_fb9ab9a03d714617b4ec82c62b627c98.bindPopup(popup_ff570f04895d493f86cec9450bcd7fbf)
+        ;
+
+        
+    
+    
+            var marker_dd520d128b934313a9e187ab7226e75b = L.marker(
+                [50.11552, 8.68417],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_5c76e090738d444f8a75b4edfd18aec2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ebf41e59a6b47f5b8427c405e759957 = $(`<div id="html_9ebf41e59a6b47f5b8427c405e759957" style="width: 100.0%; height: 100.0%;">Organisation: Max-Planck-Institut für europäische Rechtsgeschichte Frankfurt am Main</div>`)[0];
+            popup_5c76e090738d444f8a75b4edfd18aec2.setContent(html_9ebf41e59a6b47f5b8427c405e759957);
+        
+
+        marker_dd520d128b934313a9e187ab7226e75b.bindPopup(popup_5c76e090738d444f8a75b4edfd18aec2)
+        ;
+
+        
+    
+    
+            var marker_6e77958ad5e348b0b053108895861329 = L.marker(
+                [47.36667, 8.55],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_a1d1c5942e9442859e5374f66408b9fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb1039c34ecd4b15baa5dc724fac64bc = $(`<div id="html_cb1039c34ecd4b15baa5dc724fac64bc" style="width: 100.0%; height: 100.0%;">Organisation: Kunsthistorisches Institut, Universität Zürich</div>`)[0];
+            popup_a1d1c5942e9442859e5374f66408b9fa.setContent(html_cb1039c34ecd4b15baa5dc724fac64bc);
+        
+
+        marker_6e77958ad5e348b0b053108895861329.bindPopup(popup_a1d1c5942e9442859e5374f66408b9fa)
+        ;
+
+        
+    
+    
+            var marker_b70705d8ea2643bfab12c0d1e4c86fd0 = L.marker(
+                [49.79391, 9.95121],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_1fea8fb156b84dd19a17123333661174 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67554898cd8e4aabaa93d535384003be = $(`<div id="html_67554898cd8e4aabaa93d535384003be" style="width: 100.0%; height: 100.0%;">Organisation: Lehrstuhl für Künstliche Intelligenz und Angewandte Informatik, Universität Würzburg</div>`)[0];
+            popup_1fea8fb156b84dd19a17123333661174.setContent(html_67554898cd8e4aabaa93d535384003be);
+        
+
+        marker_b70705d8ea2643bfab12c0d1e4c86fd0.bindPopup(popup_1fea8fb156b84dd19a17123333661174)
+        ;
+
+        
+    
+    
+            var marker_9ba74cefe77149e3ab3da31b96c74b1f = L.marker(
+                [49.79391, 9.95121],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_748f61343a9e4fb88affb8cbd19cdab6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5d5604bfdc34f69bd5a107302591a10 = $(`<div id="html_f5d5604bfdc34f69bd5a107302591a10" style="width: 100.0%; height: 100.0%;">Organisation: Zentrum für Philologie und Digitalität „Kallimachos”, Universität Würzburg</div>`)[0];
+            popup_748f61343a9e4fb88affb8cbd19cdab6.setContent(html_f5d5604bfdc34f69bd5a107302591a10);
+        
+
+        marker_9ba74cefe77149e3ab3da31b96c74b1f.bindPopup(popup_748f61343a9e4fb88affb8cbd19cdab6)
+        ;
+
+        
+    
+    
+            var marker_3e5a7fa9648e453fbfb3852b4aa1ff53 = L.marker(
+                [49.79391, 9.95121],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_9c91c10ed82b4befa8ec2cb9cc84e90b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95a733935e06497a8ea7d1a08f542121 = $(`<div id="html_95a733935e06497a8ea7d1a08f542121" style="width: 100.0%; height: 100.0%;">Organisation: Kolleg Mittelalter und Frühe Neuzeit, Universität Würzburg</div>`)[0];
+            popup_9c91c10ed82b4befa8ec2cb9cc84e90b.setContent(html_95a733935e06497a8ea7d1a08f542121);
+        
+
+        marker_3e5a7fa9648e453fbfb3852b4aa1ff53.bindPopup(popup_9c91c10ed82b4befa8ec2cb9cc84e90b)
+        ;
+
+        
+    
+    
+            var marker_cd689ff4c3fc4f668dd561a421d91ed2 = L.marker(
+                [49.79391, 9.95121],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_922b24dbda1b490da995824a09b98413 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c26076dd9c34c939d0a72b36285741b = $(`<div id="html_4c26076dd9c34c939d0a72b36285741b" style="width: 100.0%; height: 100.0%;">Organisation: Lehrstuhl für Künstliche Intelligenz und Angewandte Informatik, Universität Würzburg</div>`)[0];
+            popup_922b24dbda1b490da995824a09b98413.setContent(html_4c26076dd9c34c939d0a72b36285741b);
+        
+
+        marker_cd689ff4c3fc4f668dd561a421d91ed2.bindPopup(popup_922b24dbda1b490da995824a09b98413)
+        ;
+
+        
+    
+    
+            var marker_5edec0e38c2a4b9c8f2e4ff9f30b24dd = L.marker(
+                [49.79391, 9.95121],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_b315124998284c1ca5e33ce07ccdcc4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a5bff56c77fb4ca7921298ba996f2976 = $(`<div id="html_a5bff56c77fb4ca7921298ba996f2976" style="width: 100.0%; height: 100.0%;">Organisation: Kolleg Mittelalter und Frühe Neuzeit, Universität Würzburg</div>`)[0];
+            popup_b315124998284c1ca5e33ce07ccdcc4c.setContent(html_a5bff56c77fb4ca7921298ba996f2976);
+        
+
+        marker_5edec0e38c2a4b9c8f2e4ff9f30b24dd.bindPopup(popup_b315124998284c1ca5e33ce07ccdcc4c)
+        ;
+
+        
+    
+    
+            var marker_72b0e18778aa4e03b97137f4e9b8cf8f = L.marker(
+                [52.52437, 13.41053],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_098ab29691414c46ac48d06a48009c10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6362f21a0a5548249f6aec2d4d7e60cb = $(`<div id="html_6362f21a0a5548249f6aec2d4d7e60cb" style="width: 100.0%; height: 100.0%;">Organisation: Digitales Wörterbuch der deutschen Sprache, BBAW</div>`)[0];
+            popup_098ab29691414c46ac48d06a48009c10.setContent(html_6362f21a0a5548249f6aec2d4d7e60cb);
+        
+
+        marker_72b0e18778aa4e03b97137f4e9b8cf8f.bindPopup(popup_098ab29691414c46ac48d06a48009c10)
+        ;
+
+        
+    
+    
+            var marker_4f10c20c539844d8920a955b6be4d7f0 = L.marker(
+                [49.79391, 9.95121],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_c1bd6f63a37946f1b7121c8a71dd9d09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_084cd3232d6a4b4f90e975f9311bed73 = $(`<div id="html_084cd3232d6a4b4f90e975f9311bed73" style="width: 100.0%; height: 100.0%;">Organisation: Lehrstuhl für deutsche Philologie (ältere Abteilung), Universität Würzburg</div>`)[0];
+            popup_c1bd6f63a37946f1b7121c8a71dd9d09.setContent(html_084cd3232d6a4b4f90e975f9311bed73);
+        
+
+        marker_4f10c20c539844d8920a955b6be4d7f0.bindPopup(popup_c1bd6f63a37946f1b7121c8a71dd9d09)
+        ;
+
+        
+    
+    
+            var marker_35c499a2edf64a9180aa04e3edd0ae7b = L.marker(
+                [49.79391, 9.95121],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_12202385b19d4098b3136cb40cb6dd6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dffb107b7a2643529c939a6823244f80 = $(`<div id="html_dffb107b7a2643529c939a6823244f80" style="width: 100.0%; height: 100.0%;">Organisation: Lehrstuhl für Künstliche Intelligenz und Angewandte Informatik, Universität Würzburg</div>`)[0];
+            popup_12202385b19d4098b3136cb40cb6dd6d.setContent(html_dffb107b7a2643529c939a6823244f80);
+        
+
+        marker_35c499a2edf64a9180aa04e3edd0ae7b.bindPopup(popup_12202385b19d4098b3136cb40cb6dd6d)
+        ;
+
+        
+    
+    
+            var marker_647cdbb7febd45479d34fc97c2bca4a7 = L.marker(
+                [49.59099, 11.00783],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_aa4e5b855db24b0ebdcda774036e2fa3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a64169b12282403ba63005b188eb1ac4 = $(`<div id="html_a64169b12282403ba63005b188eb1ac4" style="width: 100.0%; height: 100.0%;">Organisation: Universitätsbibliothek der FAU Erlangen-Nürnber</div>`)[0];
+            popup_aa4e5b855db24b0ebdcda774036e2fa3.setContent(html_a64169b12282403ba63005b188eb1ac4);
+        
+
+        marker_647cdbb7febd45479d34fc97c2bca4a7.bindPopup(popup_aa4e5b855db24b0ebdcda774036e2fa3)
+        ;
+
+        
+    
+    
+            var marker_d951dfa388fe4a3a8d14610b1e3c7a18 = L.marker(
+                [51.33962, 12.37129],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_f7e3a2d3e7d34fd7ac325099d1e19c63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52d80a005f5f44529b46b2982c799277 = $(`<div id="html_52d80a005f5f44529b46b2982c799277" style="width: 100.0%; height: 100.0%;">Organisation: Abteilung Automatische Sprachverarbeitung, Universität Leipzig</div>`)[0];
+            popup_f7e3a2d3e7d34fd7ac325099d1e19c63.setContent(html_52d80a005f5f44529b46b2982c799277);
+        
+
+        marker_d951dfa388fe4a3a8d14610b1e3c7a18.bindPopup(popup_f7e3a2d3e7d34fd7ac325099d1e19c63)
+        ;
+
+        
+    
+    
+            var marker_1610710d11a84b7d8d69600eb47dae42 = L.marker(
+                [49.01513, 12.10161],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_129b64596c904341a9e7de0d3ae88ee4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71d8c0c7a7724a209850bf3dc2daf0c5 = $(`<div id="html_71d8c0c7a7724a209850bf3dc2daf0c5" style="width: 100.0%; height: 100.0%;">Organisation: Universitätsbibliothek Regensburg</div>`)[0];
+            popup_129b64596c904341a9e7de0d3ae88ee4.setContent(html_71d8c0c7a7724a209850bf3dc2daf0c5);
+        
+
+        marker_1610710d11a84b7d8d69600eb47dae42.bindPopup(popup_129b64596c904341a9e7de0d3ae88ee4)
+        ;
+
+        
+    
+    
+            var marker_15dc1f50a3fb40a0ad1fa9b4b99e4d01 = L.marker(
+                [51.33962, 12.37129],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_b2cc146628104bf08acf8932d4971300 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_647f4e66c985496bab9ffd2ace76b7fa = $(`<div id="html_647f4e66c985496bab9ffd2ace76b7fa" style="width: 100.0%; height: 100.0%;">Organisation: Computational Humanities Group, Universität Leipzig</div>`)[0];
+            popup_b2cc146628104bf08acf8932d4971300.setContent(html_647f4e66c985496bab9ffd2ace76b7fa);
+        
+
+        marker_15dc1f50a3fb40a0ad1fa9b4b99e4d01.bindPopup(popup_b2cc146628104bf08acf8932d4971300)
+        ;
+
+        
+    
+    
+            var marker_bb609ca0291b476186a86546cb37beab = L.marker(
+                [48.20849, 16.37208],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_0be190fc3bff463582111d69f4dc6f87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd9c0bda58c54c9ebb0c50ac2615948f = $(`<div id="html_bd9c0bda58c54c9ebb0c50ac2615948f" style="width: 100.0%; height: 100.0%;">Organisation: Österreichische Akademie der Wissenschaften</div>`)[0];
+            popup_0be190fc3bff463582111d69f4dc6f87.setContent(html_bd9c0bda58c54c9ebb0c50ac2615948f);
+        
+
+        marker_bb609ca0291b476186a86546cb37beab.bindPopup(popup_0be190fc3bff463582111d69f4dc6f87)
+        ;
+
+        
+    
+    
+            var marker_71a2a28b9e12473c97ad38b7cc9b6892 = L.marker(
+                [49.79391, 9.95121],
+                {}
+            ).addTo(marker_cluster_f3ab2ba6c9a6432d85d2ff241e476e01);
+        
+    
+        var popup_12c618b065664615a5ad18454e200a46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f79f4b5c3f24a9781818ce588a53a04 = $(`<div id="html_3f79f4b5c3f24a9781818ce588a53a04" style="width: 100.0%; height: 100.0%;">Organisation: Zentrum für Philologie und Digitalität „Kallimachos”, Universität Würzburg</div>`)[0];
+            popup_12c618b065664615a5ad18454e200a46.setContent(html_3f79f4b5c3f24a9781818ce588a53a04);
+        
+
+        marker_71a2a28b9e12473c97ad38b7cc9b6892.bindPopup(popup_12c618b065664615a5ad18454e200a46)
+        ;
+
+        
+    
+</script>
