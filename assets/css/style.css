@@ -5,6 +5,14 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
+/**** Custom Banner ****/
+.page-header {
+  background-image: url(assets/img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
 /**** General *****/
 /* Font settings */
 body{
